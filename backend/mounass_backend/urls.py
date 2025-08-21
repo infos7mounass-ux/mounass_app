@@ -19,12 +19,3 @@ urlpatterns = [
     path('api/marketplace/', include('marketplace.urls')),
     path('api/realestate/', include('realestate.urls')),
 ]
-INSTALLED_APPS = [
-    ...,
-    'rest_framework',
-    'users',
-    'meet',
-    'texts',
-    'marketplace',
-    'realestate',
-]
